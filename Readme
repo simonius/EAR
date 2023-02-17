@@ -1,0 +1,13 @@
+These files hold the testcases for the publication "Entropy-aware non-oscillatory high-order finite volume methods using the Dafermos entropy rate criterion".
+Please note that also functions for PA operator based schemes are included here but only one version was included in the publication to reduce overlength.
+
+
+List of files:
+	* burgflux.jl: 		Holds the fluxes for Burgers' equation
+	* burgparam.jl: 	Global parameters for the test cases
+        * derhoes.jl:
+	* mkconvana.jl:		Performs a convergence analysis when included
+	* mkpictures.jl:	Produces images of numerical tests to show the shock-capturing abilities
+	* solvers.jl: implementation of solvers
+	* recon.jl
+
